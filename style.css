@@ -736,11 +736,11 @@ fieldset.grupo .campo {
 .fundo-form {
 background-color: #FFC268;
 height: 570px;
-margin-right: 660px;
+margin-right: 640px;
 border-radius: 25px;
 }
 
 .conteudo-form {
 padding-top: 20px;
-padding-left: 15px;
+padding-left: 25px;
 }
