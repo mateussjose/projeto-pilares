@@ -628,7 +628,7 @@ fieldset {
 /* Elemento de tag <body> */
 form{
   padding-top: 140px;
-  padding-left: 670px;
+  padding-left: 650px;
   font-family: 'Sarala', sans-serif;
   font-size: 1em;
   justify-content: center;
@@ -736,7 +736,7 @@ fieldset.grupo .campo {
 .fundo-form {
 background-color: #FFC268;
 height: 570px;
-margin-right: 640px;
+margin-right: 630px;
 border-radius: 25px;
 }
 
