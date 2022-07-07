@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pilaris - Espaço de Convivência</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="1656725750.ico">
+    
+</head>
+
+<body>
+  <header class="cabeçalho">
+    <a href= "index.html">
+      <h1 class="logo-nome">Pilares</h1>
+    </a>
+
+    <nav class="cabeçalho-menu">
+      <ul>
+        <li><a  href="page2.html">Nosso Projeto</a></li>
+        <li><a  href="page3.html">Planta</a></li>
+        <li><a  href="page4.html">Sobre Nós</a></li>
+      </ul>
+      
+      <a href="page5.html"> 
+      <button class="botao-doação">Doar</buttom>
+      </a>
+    </nav>
+   </header>  
+
+ 
+    <form>
+    
+       <div>
+         <h1 class="titulo-fomr">Casdastro</h1>
+       </br>
+       </div>
+
+       <div class="fundo-form">
+        <div class="conteudo-form">
+        <fieldset class="grupo">
+            <!-- Campo do nome com legenda "nome" e css de classe "campo" -->
+            <div class="campo">
+                <label for="nome"><strong>Nome</strong></label>
+                <input type="text" name="nome" id="nome" required>
+            </div>
+
+            <!-- Campo do sobrenome com legenda "sobrenome" e css de classe "campo" -->
+            <div class="campo">
+                <label for="sobrenome"><strong>Sobrenome</strong></label>
+                <input type="text" name="sobrenome" id="sobrenome" required>
+            </div>
+        </fieldset> 
+
+        <fieldset class="grupo">
+            <!-- Campo do nome com legenda "nome" e css de classe "campo" -->
+            <div class="campo">
+                <label for="nome"><strong>Email</strong></label>
+                <input type="email" name="email" id="email" required>
+            </div>
+
+            <!-- Campo do sobrenome com legenda "sobrenome" e css de classe "campo" -->
+            <div class="campo">
+                <label for="sobrenome"><strong>Endereço</strong></label>
+                <input type="text" name="endereço" id="endereço" required>
+            </div>
+        </fieldset> 
+        
+        <div class="campo">
+          
+        <label><strong>Forma de Pagamento</strong></label>
+        
+        <fieldset class="grupo2">
+            <label>
+                <input type="radio" name="devweb" value="cartãocredito" checked> Cartão de crédito
+            </label>
+            <label>
+                <input type="radio" name="devweb" value="cartãodebito"> Cartão de débito
+            </label>
+        </fieldset>
+
+        <fieldset class="grupo3">
+            <label>
+                <input type="radio" name="devweb" value="transferenciabancaria"> Transferência Bancária
+            </label>
+            <label>
+                <input type="radio" name="devweb" value="pix"> Pix
+            </label>
+        </fieldset>
+        </div>
+        
+        
+
+        <fieldset class="grupo">
+            <!-- Campo do nome com legenda "nome" e css de classe "campo" -->
+            <div class="campo">
+                <label for="nome"><strong>Bandeira do Cartão</strong></label>
+                <input type="text" name="nome" id="nome" required>
+            </div>
+
+            <!-- Campo do sobrenome com legenda "sobrenome" e css de classe "campo" -->
+            <div class="campo">
+                <label for="sobrenome"><strong>Número do Cartão</strong></label>
+                <input type="text" name="sobrenome" id="sobrenome" required>
+            </div>
+        </fieldset> 
+
+        <fieldset class="grupo">
+            <!-- Campo do nome com legenda "nome" e css de classe "campo" -->
+            <div class="campo">
+                <label for="nome"><strong>CVV</strong></label>
+                <input type="text" name="nome" id="nome" required>
+            </div>
+
+            <!-- Campo do sobrenome com legenda "sobrenome" e css de classe "campo" -->
+            <div class="campo">
+                <label for="sobrenome"><strong>Valor</strong></label>
+                <input type="text" name="sobrenome" id="sobrenome" required>
+            </div>
+        </fieldset> 
+
+        </div>
+        </div>
+        
+        <button class="botao" type="submit" onsubmit="">Confirmar</button>            
+
+    </form>
+  
+  
+  
+
+ <script src="mobile.js"></script>
+</body>
+
+</html>
